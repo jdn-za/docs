@@ -162,7 +162,7 @@ Re-run `init-terraform`, answer `yes` when asked to import state
 
 (No need to re-enable the `assume_role` section in `tfstate-backend/main.tf` - that change will revert when rerunning the container)
 
-Drop down to the base dir `cd ..`
+Drop down to the tfstate-backend/ dir `cd ..`
 
 ```
 {{% /dialog %}}
